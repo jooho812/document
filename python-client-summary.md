@@ -15,8 +15,9 @@
 		- --vpn_remap 없을경우
     		- ip:port 형태의 line을 읽어들임
 		- ex)
-		      127.0.0.1:9181   or
-			  jam2in-m001:9181 (remap 옵션과 함께 적용)
+
+		         127.0.0.1:9181   or
+		         jam2in-m001:9181 (remap 옵션과 함께 적용)
 	- -a('')
 		- 실행 -a [zookeeper address]
 		- -f 옵션을 사용하지 않을경우 직접 zookeeper의 주소정보를 줄 수 있다.
@@ -29,30 +30,35 @@
 		- 실행 -n [ip]
 		- /arcus/cache_server_mapping 내의 ip에 해당하는 목록을 가져온다.
 		- output **[ ip:port-(service_code) ]**
-			  [127.0.0.1:11288-(ngrinder)]
-              [127.0.0.1:11212-(test)]
+
+		         [127.0.0.1:11288-(ngrinder)]
+		         [127.0.0.1:11212-(test)]
 
 	- vpn_remap('')
 		- 실행 --vpn_remap [ mapping_file_name ]
 		- map형태로 저장된 파일을 읽어서 처리 (ex 호스트명 -> reamping ip(호스트파일참조할 ip):port )
 		- ex)
-			  jam2inServer1 1.255.51.181:2181
-			  jam2inServer2 1.255.51.181:5181
+
+		         jam2inServer1 1.255.51.181:2181
+		         jam2inServer2 1.255.51.181:5181
 
 	- all_node(false)
 		- 실행 --all_node
 		- -n 옵션을 함께 줄경우 -n [ip] 에 해당하는 노드들만 가져옴
 		- output **[ ip:port-(domain) ]**
-			  [127.0.0.1:11211-(localhost)]
-              [1.255.51.181:15211-(jam2in-m001)]
+
+		         [127.0.0.1:11211-(localhost)]
+		         [1.255.51.181:15211-(jam2in-m001)]
 	- all_server(false)
 		- 실행 --all_server
 		- /arcus/cache_list 내의 service_code를 가져오고 -n 옵션을 같이 줄 경우 service_code내의 -n [ip] 에 해당하는 server 정보만 가져온다.
 		- output **[ ip:port:* ]**
-			  [1.255.51.181:*]
-              [127.0.0.1:*]
+
+		         [1.255.51.181:*]
+			     [127.0.0.1:*]
 
 	- -t(200) timeout/1000
+
  ----------------------------------------------------------------------------------------------------------------------------
  ----------------------------------------------------------------------------------------------------------------------------
 
@@ -61,9 +67,10 @@
 		- -s, -n 옵션이 있는경우
  		- -s -n 옵션통해 가져온 list들에 한해서 do_ssh_command로 해당 ip에 접속해 free 정보와 각각 노드들에 stats 명령어를 통해 해당 노드의 정보들을 가져온다.
  		-  output
- 			    [127.0.0.1] system memory
-		 	    total       used       free     shared    buffers     cached
-			     Mem:      16269264   15101500    1167764      18784     401052   10136032
+
+		         [127.0.0.1] system memory
+			     total       used       free     shared    buffers     cached
+				 Mem:      16269264   15101500    1167764      18784     401052   10136032
 				 -/+ buffers/cache:    4564416   11704848
 				 Swap:            0          0          0
                  [127.0.0.1:11211-(test)]                MEM: (0/100) 0.000153%, CONN: (2/1000)
@@ -76,6 +83,7 @@
 		- -s, -n 옵션이 없는경우
 			- zookeeper에 접속해 /arcus/cache_list에 있는 service_code에 해당하는 노드들의 메모리정보를 보여준다.
 			- output
+
 				  ## jam2in-m001:5181
 				  [ngrinder] 1 instances, 4096M memory
                   ## jam2in-m001:9181
@@ -101,6 +109,7 @@
 		- 실행 -p [prefix_name || all]
 		- output에 [ip:port-(service_code)] 형태로 보여지는 경우에만 잘 나타남
 		- output
+
 			  [Total]
 			  PREFIX arcus       itm      12 kitm      12 litm       0 sitm       0 bitm       0
                      tsz    960 ktsz     960 ltsz       0 stsz       0 btsz       0
