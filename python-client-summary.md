@@ -1,4 +1,4 @@
-### arcus_cmd.py
+##### arcus_cmd.py
 - kazoo모듈을 통해 zookeeper에 접속하여 노드정보들을 수집하고
 	optionParser 이용해서 명령어 옵션에 따른 처리
 - 변경해야할 값 설정
