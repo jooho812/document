@@ -22,13 +22,11 @@
         - ins_element_size=200000
         - act_element_size=100000
 
-	- test case
-		- case01 : 각 50,000 element 가지는 cache item에 대해 1 ~ 50,000 random get
-		- case02 : 각 50,000 element 가지는 cache item에 대해 1 ~ 1,000 random get
-		- case03 : 각 50,000 element 가지는 cache item에 대해 30,000 ~ 50,000 random get
-		- case04 : 각 100 element 가지는 cache item에 대해 30,000 ~ 50,000 random get
-
-
+	- test case(block 갯수)
+		- case01 : 각 50,000 element 가지는 cache item에 대해 1 ~ 50,000 random get(709)
+		- case02 : 각 50,000 element 가지는 cache item에 대해 1 ~ 1,000 random get(931)
+		- case03 : 각 50,000 element 가지는 cache item에 대해 30,000 ~ 50,000 random get(686)
+		- case04 : 각 100 element 가지는 cache item에 대해 30,000 ~ 50,000 random get(500)
 
 
 
