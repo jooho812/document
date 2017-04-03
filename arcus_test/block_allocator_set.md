@@ -10,7 +10,7 @@
         - rate=0
         - request=0
         - time=600
-        - keyset_size=30
+        - keyset_size=20
         - key_prefix=setgetwithdelete:
         - valueset_min_size=20
         - valueset_max_size=20
