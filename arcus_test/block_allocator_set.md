@@ -1,6 +1,6 @@
 - 테스트 환경
 
-	- server : m001 장비 사용(./memcached -E .libs/default_engine.so -X .libs/syslog_logger.so -X .libs/ascii_scrub.so -d -v -r -R5 -U 0 -D: -b 8192 -m100 -p 11299 -c 1000 -t 6 -z 10.32.24.105:9181)
+	- server : m001 장비 사용(./memcached -E .libs/default_engine.so -X .libs/syslog_logger.so -X .libs/ascii_scrub.so -d -v -r -R5 -U 0 -D: -b 8192 -m100 -p 11299 -c 1000 -t 6 -z 11.11.11.11:9181)
 		- block 미적용 cache server : https://github.com/jam2in/arcus-memcached.git develop branch 사용
 		- block 적용 cache server : https://github.com/jooho812/arcus-memcached.git jooho812/block_allocator branch 사용
 
