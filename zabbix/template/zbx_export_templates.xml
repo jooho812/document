@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2018-10-30T11:24:24Z</date>
+    <date>2018-10-31T08:32:16Z</date>
     <groups>
         <group>
             <name>mssql</name>
@@ -2138,7 +2138,7 @@
                     <description/>
                     <item_prototypes>
                         <item_prototype>
-                            <name>Disk Read Time({#LOGICAL_DISK}) %</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\% Disk Read Time</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2198,7 +2198,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Time({#LOGICAL_DISK}) %</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\% Disk Time</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2258,7 +2258,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Write Time({#LOGICAL_DISK}) %</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\% Disk Write Time</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2318,7 +2318,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Free Space({#LOGICAL_DISK}) %</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\% Free Space</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2378,7 +2378,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Idle Time({#LOGICAL_DISK}) %</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\% Idle Time</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2438,7 +2438,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Bytes/Read({#LOGICAL_DISK}) Avg</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Avg. Disk Bytes/Read</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2498,7 +2498,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Bytes/Transfer({#LOGICAL_DISK}) Avg</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Avg. Disk Bytes/Transfer</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2558,7 +2558,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Bytes/Write({#LOGICAL_DISK}) Avg</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Avg. Disk Bytes/Write</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2618,7 +2618,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Queue Length({#LOGICAL_DISK}) Avg</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Avg. Disk Queue Length</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2678,7 +2678,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Read Queue Length({#LOGICAL_DISK}) Avg</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Avg. Disk Read Queue Length</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2738,7 +2738,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk sec/Read({#LOGICAL_DISK}) Avg</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Avg. Disk sec/Read</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2798,7 +2798,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk sec/Transfer({#LOGICAL_DISK}) Avg</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Avg. Disk sec/Transfer</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2858,7 +2858,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk sec/Write({#LOGICAL_DISK}) Avg</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Avg. Disk sec/Write</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2918,7 +2918,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Write Queue Length({#LOGICAL_DISK}) Avg</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Avg. Disk Write Queue Length</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -2978,7 +2978,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Current Disk Queue Length({#LOGICAL_DISK})</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Current Disk Queue Length</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3038,7 +3038,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Bytes/sec({#LOGICAL_DISK})</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Disk Bytes/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3098,7 +3098,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Read Bytes/sec({#LOGICAL_DISK})</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Disk Read Bytes/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3158,7 +3158,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Reads/sec({#LOGICAL_DISK})</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Disk Reads/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3218,7 +3218,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Transfers/sec({#LOGICAL_DISK})</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Disk Transfers/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3278,7 +3278,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Write Bytes/sec({#LOGICAL_DISK}0</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Disk Write Bytes/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3338,7 +3338,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Writes/sec({#LOGICAL_DISK})</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Disk Writes/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3398,7 +3398,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Free Megabytes({#LOGICAL_DISK})</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Free Megabytes</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3458,7 +3458,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Split IO/Sec({#LOGICAL_DISK}0</name>
+                            <name>LogicalDisk({#LOGICAL_DISK})\Split IO/Sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3490,6 +3490,1326 @@
                             <applications>
                                 <application>
                                     <name>LogicalDisk</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Bytes Received/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Bytes Received/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Bytes Sent/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Bytes Sent/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Bytes Total/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Bytes Total/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Current Bandwidth({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Current Bandwidth&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Offloaded Connections({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Offloaded Connections&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Output Queue Length({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Output Queue Length&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Outbound Discarded({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Outbound Discarded&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Outbound Errors({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Outbound Errors&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Received/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Received Discarded({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Discarded&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Received Errors({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Errors&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Received Non-Unicast/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Non-Unicast/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Received Unicast/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Unicast/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Received Unknown({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Unknown&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Sent/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Sent/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Sent Non-Unicast/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Sent Non-Unicast/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Packets Sent Unicast/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Sent Unicast/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>TCP Active RSC Connections({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\TCP Active RSC Connections&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>TCP RSC Average Packet Size({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\TCP RSC Average Packet Size&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>TCP RSC Coalesced Packets/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\TCP RSC Coalesced Packets/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>TCP RSC Exceptions/sec({#NETWORK_INTERFACE})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\TCP RSC Exceptions/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Network Interface</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -3638,7 +4958,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Read Time({#PHYSICAL_DISK}) %</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\% Disk Read Time</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3698,7 +5018,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Time({#PHYSICAL_DISK}) %</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\% Disk Time</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3758,7 +5078,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Write Time({#PHYSICAL_DISK}) %</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\% Disk Write Time</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3818,7 +5138,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Idle Time({#PHYSICAL_DISK}) %</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\% Idle Time</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3878,7 +5198,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Bytes/Read({#PHYSICAL_DISK}) Avg</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Avg. Disk Bytes/Read</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3938,7 +5258,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Bytes/Transfer({#PHYSICAL_DISK}) Avg</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Avg. Disk Bytes/Transfer</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -3998,7 +5318,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Bytes/Write({#PHYSICAL_DISK}) Avg</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Avg. Disk Bytes/Write</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4058,7 +5378,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Queue Length({#PHYSICAL_DISK}) Avg</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Avg. Disk Queue Length</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4118,7 +5438,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Read Queue Length({#PHYSICAL_DISK}) Avg</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Avg. Disk Read Queue Length</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4178,7 +5498,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk sec/Read({#PHYSICAL_DISK}) Avg</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Avg. Disk sec/Read</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4238,7 +5558,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk sec/Transfer({#PHYSICAL_DISK}) Avg</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Avg. Disk sec/Transfer</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4298,7 +5618,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk sec/Write({#PHYSICAL_DISK}) Avg</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Avg. Disk sec/Write</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4358,7 +5678,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Write Queue Length({#PHYSICAL_DISK}) Avg</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Avg. Disk Write Queue Length</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4418,7 +5738,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Current Disk Queue Length({#PHYSICAL_DISK})</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Current Disk Queue Length</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4478,7 +5798,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Bytes/sec({#PHYSICAL_DISK})</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Disk Bytes/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4538,7 +5858,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Read Bytes/sec({#PHYSICAL_DISK})</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Disk Read Bytes/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4598,7 +5918,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Reads/sec({#PHYSICAL_DISK})</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Disk Reads/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4658,7 +5978,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Transfers/sec({#PHYSICAL_DISK})</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Disk Transfers/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4718,7 +6038,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Write Bytes/sec({#PHYSICAL_DISK})</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Disk Write Bytes/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -4778,7 +6098,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Disk Writes/sec({#PHYSICAL_DISK})</name>
+                            <name>PhysicalDisk({#PHYSICAL_DISK})\Disk Writes/sec</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -5797,1326 +7117,6 @@
                             <application_prototypes/>
                             <master_item/>
                         </item_prototype>
-                        <item_prototype>
-                            <name>Bytes Received/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Bytes Received/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Bytes Sent/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Bytes Sent/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Bytes Total/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Bytes Total/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Current Bandwidth({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Current Bandwidth&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Offloaded Connections({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Offloaded Connections&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Output Queue Length({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Output Queue Length&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Outbound Discarded({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Outbound Discarded&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Outbound Errors({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Outbound Errors&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Received/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Received Discarded({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Discarded&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Received Errors({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Errors&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Received Non-Unicast/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Non-Unicast/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Received Unicast/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Unicast/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Received Unknown({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Unknown&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Sent/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Sent/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Sent Non-Unicast/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Sent Non-Unicast/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Packets Sent Unicast/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Sent Unicast/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>TCP Active RSC Connections({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\TCP Active RSC Connections&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>TCP RSC Average Packet Size({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\TCP RSC Average Packet Size&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>TCP RSC Coalesced Packets/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\TCP RSC Coalesced Packets/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>TCP RSC Exceptions/sec({#NETWORK_INTERFACE})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\TCP RSC Exceptions/sec&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>Network Interface</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
                     </item_prototypes>
                     <trigger_prototypes/>
                     <graph_prototypes>
@@ -7443,7 +7443,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Bytes Received/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Bytes Received/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -7455,7 +7455,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Bytes Sent/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Bytes Sent/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -7467,23 +7467,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Bytes Total/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Bytes Total/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
                                     <sortorder>3</sortorder>
-                                    <drawtype>0</drawtype>
-                                    <color>F7941D</color>
-                                    <yaxisside>0</yaxisside>
-                                    <calc_fnc>2</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Current Bandwidth&quot;]</key>
-                                    </item>
-                                </graph_item>
-                                <graph_item>
-                                    <sortorder>4</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>FC6EA3</color>
                                     <yaxisside>0</yaxisside>
@@ -7491,11 +7479,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Offloaded Connections&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Offloaded Connections&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>5</sortorder>
+                                    <sortorder>4</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>6C59DC</color>
                                     <yaxisside>0</yaxisside>
@@ -7503,11 +7491,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Output Queue Length&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Output Queue Length&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>6</sortorder>
+                                    <sortorder>5</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>C7A72D</color>
                                     <yaxisside>0</yaxisside>
@@ -7515,11 +7503,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>7</sortorder>
+                                    <sortorder>6</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>BA2A5D</color>
                                     <yaxisside>0</yaxisside>
@@ -7527,11 +7515,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Outbound Discarded&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Outbound Discarded&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>8</sortorder>
+                                    <sortorder>7</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>F230E0</color>
                                     <yaxisside>0</yaxisside>
@@ -7539,11 +7527,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Outbound Errors&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Outbound Errors&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>9</sortorder>
+                                    <sortorder>8</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>5CCD18</color>
                                     <yaxisside>0</yaxisside>
@@ -7551,11 +7539,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>10</sortorder>
+                                    <sortorder>9</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>BB2A02</color>
                                     <yaxisside>0</yaxisside>
@@ -7563,11 +7551,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Discarded&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Discarded&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>11</sortorder>
+                                    <sortorder>10</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>AC41A5</color>
                                     <yaxisside>0</yaxisside>
@@ -7575,11 +7563,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Errors&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Errors&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>12</sortorder>
+                                    <sortorder>11</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>89ABF8</color>
                                     <yaxisside>0</yaxisside>
@@ -7587,11 +7575,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Non-Unicast/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Non-Unicast/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>13</sortorder>
+                                    <sortorder>12</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>7EC25C</color>
                                     <yaxisside>0</yaxisside>
@@ -7599,11 +7587,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Unicast/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Unicast/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>14</sortorder>
+                                    <sortorder>13</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>3165D5</color>
                                     <yaxisside>0</yaxisside>
@@ -7611,11 +7599,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Received Unknown&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Received Unknown&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>15</sortorder>
+                                    <sortorder>14</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>79A277</color>
                                     <yaxisside>0</yaxisside>
@@ -7623,11 +7611,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Sent/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Sent/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>16</sortorder>
+                                    <sortorder>15</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>AA73DE</color>
                                     <yaxisside>0</yaxisside>
@@ -7635,11 +7623,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Sent Non-Unicast/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Sent Non-Unicast/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>17</sortorder>
+                                    <sortorder>16</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>FD5434</color>
                                     <yaxisside>0</yaxisside>
@@ -7647,11 +7635,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\Packets Sent Unicast/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\Packets Sent Unicast/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>18</sortorder>
+                                    <sortorder>17</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>F21C3E</color>
                                     <yaxisside>0</yaxisside>
@@ -7659,11 +7647,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\TCP Active RSC Connections&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\TCP Active RSC Connections&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>19</sortorder>
+                                    <sortorder>18</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>87AC4D</color>
                                     <yaxisside>0</yaxisside>
@@ -7671,11 +7659,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\TCP RSC Average Packet Size&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\TCP RSC Average Packet Size&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>20</sortorder>
+                                    <sortorder>19</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>E89DF4</color>
                                     <yaxisside>0</yaxisside>
@@ -7683,11 +7671,11 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\TCP RSC Coalesced Packets/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\TCP RSC Coalesced Packets/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
-                                    <sortorder>21</sortorder>
+                                    <sortorder>20</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>199C0D</color>
                                     <yaxisside>0</yaxisside>
@@ -7695,7 +7683,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>NDream Basic Template</host>
-                                        <key>perf_counter[&quot;\{#NETWORK_INTERFACE}\TCP RSC Exceptions/sec&quot;]</key>
+                                        <key>perf_counter[&quot;\Network Interface({#NETWORK_INTERFACE})\TCP RSC Exceptions/sec&quot;]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -25914,18 +25902,6 @@
                 <graph_item>
                     <sortorder>0</sortorder>
                     <drawtype>0</drawtype>
-                    <color>199C0D</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Available Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>1</sortorder>
-                    <drawtype>0</drawtype>
                     <color>F63100</color>
                     <yaxisside>0</yaxisside>
                     <calc_fnc>2</calc_fnc>
@@ -25936,7 +25912,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>2</sortorder>
+                    <sortorder>1</sortorder>
                     <drawtype>0</drawtype>
                     <color>2774A4</color>
                     <yaxisside>0</yaxisside>
@@ -25948,67 +25924,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>3</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>F7941D</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Cache Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>4</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>FC6EA3</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Cache Bytes Peak&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>5</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>6C59DC</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Cache Faults/sec&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>6</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>C7A72D</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Commit Limit&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>7</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>BA2A5D</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Committed Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>8</sortorder>
+                    <sortorder>2</sortorder>
                     <drawtype>0</drawtype>
                     <color>F230E0</color>
                     <yaxisside>0</yaxisside>
@@ -26020,7 +25936,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>9</sortorder>
+                    <sortorder>3</sortorder>
                     <drawtype>0</drawtype>
                     <color>5CCD18</color>
                     <yaxisside>0</yaxisside>
@@ -26032,31 +25948,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>10</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>BB2A02</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Free &amp; Zero Page List Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>11</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>AC41A5</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Free System Page Table Entries&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>12</sortorder>
+                    <sortorder>4</sortorder>
                     <drawtype>0</drawtype>
                     <color>89ABF8</color>
                     <yaxisside>0</yaxisside>
@@ -26068,7 +25960,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>13</sortorder>
+                    <sortorder>5</sortorder>
                     <drawtype>0</drawtype>
                     <color>7EC25C</color>
                     <yaxisside>0</yaxisside>
@@ -26080,7 +25972,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>14</sortorder>
+                    <sortorder>6</sortorder>
                     <drawtype>0</drawtype>
                     <color>3165D5</color>
                     <yaxisside>0</yaxisside>
@@ -26092,7 +25984,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>15</sortorder>
+                    <sortorder>7</sortorder>
                     <drawtype>0</drawtype>
                     <color>79A277</color>
                     <yaxisside>0</yaxisside>
@@ -26104,7 +25996,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>16</sortorder>
+                    <sortorder>8</sortorder>
                     <drawtype>0</drawtype>
                     <color>AA73DE</color>
                     <yaxisside>0</yaxisside>
@@ -26116,7 +26008,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>17</sortorder>
+                    <sortorder>9</sortorder>
                     <drawtype>0</drawtype>
                     <color>FD5434</color>
                     <yaxisside>0</yaxisside>
@@ -26128,7 +26020,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>18</sortorder>
+                    <sortorder>10</sortorder>
                     <drawtype>0</drawtype>
                     <color>F21C3E</color>
                     <yaxisside>0</yaxisside>
@@ -26140,115 +26032,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>19</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>87AC4D</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Pool Nonpaged Allocs&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>20</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>E89DF4</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Pool Nonpaged Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>21</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>199C0D</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Pool Paged Allocs&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>22</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>F63100</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Pool Paged Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>23</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>2774A4</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Pool Paged Resident Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>24</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>F7941D</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Standby Cache Core Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>25</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>FC6EA3</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Standby Cache Normal Priority Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>26</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>6C59DC</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\Standby Cache Reserve Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>27</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>C7A72D</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>NDream Basic Template</host>
-                        <key>perf_counter[&quot;\Memory\System Cache Resident Bytes&quot;]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>28</sortorder>
+                    <sortorder>11</sortorder>
                     <drawtype>0</drawtype>
                     <color>BA2A5D</color>
                     <yaxisside>0</yaxisside>
@@ -26260,7 +26044,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>29</sortorder>
+                    <sortorder>12</sortorder>
                     <drawtype>0</drawtype>
                     <color>F230E0</color>
                     <yaxisside>0</yaxisside>
@@ -26272,7 +26056,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>30</sortorder>
+                    <sortorder>13</sortorder>
                     <drawtype>0</drawtype>
                     <color>5CCD18</color>
                     <yaxisside>0</yaxisside>
@@ -26284,7 +26068,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>31</sortorder>
+                    <sortorder>14</sortorder>
                     <drawtype>0</drawtype>
                     <color>BB2A02</color>
                     <yaxisside>0</yaxisside>
@@ -26296,7 +26080,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>32</sortorder>
+                    <sortorder>15</sortorder>
                     <drawtype>0</drawtype>
                     <color>AC41A5</color>
                     <yaxisside>0</yaxisside>
@@ -26308,7 +26092,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>33</sortorder>
+                    <sortorder>16</sortorder>
                     <drawtype>0</drawtype>
                     <color>89ABF8</color>
                     <yaxisside>0</yaxisside>
@@ -26320,7 +26104,7 @@
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>34</sortorder>
+                    <sortorder>17</sortorder>
                     <drawtype>0</drawtype>
                     <color>7EC25C</color>
                     <yaxisside>0</yaxisside>
