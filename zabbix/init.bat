@@ -15,23 +15,18 @@ SET port=10050
 :: make config file(%cd%\conf)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 copy %dir%\conf\example\userparameter_ndream.example.conf %dir%\conf\userparameter_ndream.conf
-copy %dir%\conf\example\zabbix_agentd.win.example.conf %dir%\conf\zabbix_agentd.win.conf
+copy %dir%\conf\example\zabbix_agentd.win.example.conf    %dir%\conf\zabbix_agentd.win.conf
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: replace string
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:: replace zabbix_agentd.win.conf
 call :REPLACE_STRING conf\zabbix_agentd.win.conf #DIRECTORY_PATH %dir%
 call :REPLACE_STRING conf\zabbix_agentd.win.conf #ZABBIX_SERVER_IP %ip%
 call :REPLACE_STRING conf\zabbix_agentd.win.conf #HOSTNAME %hostname%
 call :REPLACE_STRING conf\zabbix_agentd.win.conf #LISTENPORT %port%
 
-:: replace userparameter_ndream.conf(only replace directory_path)
 call :REPLACE_STRING conf\userparameter_ndream.conf #DIRECTORY_PATH %dir%
-
-
-
 
 goto :EOF
 
