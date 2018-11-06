@@ -4,12 +4,16 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: #DIRECTORY_PATH
 SET dir=%cd%
+
 :: #ZABBIX_SERVER_IP
 SET ip=192.168.1.172
+:: #ZABBIX_PROXY_IPPORT
+SET proxy=192.168.1.172:10052
+
 :: #HOSTNAME
 SET hostname=LC_01
-:: #LISTENPORT (server port)
-SET port=10050
+
+
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: make config file(%cd%\conf)
@@ -24,7 +28,7 @@ copy %dir%\conf\example\zabbix_agentd.win.example.conf    %dir%\conf\zabbix_agen
 call :REPLACE_STRING conf\zabbix_agentd.win.conf #DIRECTORY_PATH %dir%
 call :REPLACE_STRING conf\zabbix_agentd.win.conf #ZABBIX_SERVER_IP %ip%
 call :REPLACE_STRING conf\zabbix_agentd.win.conf #HOSTNAME %hostname%
-call :REPLACE_STRING conf\zabbix_agentd.win.conf #LISTENPORT %port%
+call :REPLACE_STRING conf\zabbix_agentd.win.conf #ZABBIX_PROXY_IPPORT %proxy%
 
 call :REPLACE_STRING conf\userparameter_ndream.conf #DIRECTORY_PATH %dir%
 
