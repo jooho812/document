@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2018-11-08T00:14:18Z</date>
+    <date>2018-11-13T07:43:01Z</date>
     <groups>
         <group>
             <name>mssql</name>
@@ -36,8 +36,542 @@
                 <application>
                     <name>Processor</name>
                 </application>
+                <application>
+                    <name>System</name>
+                </application>
             </applications>
             <items>
+                <item>
+                    <name>Disk Avail Size MB (C: drive)</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ndream.disk.avail.mb[C:]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PhysicalDisk</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Disk Avail Size MB (D: drive)</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ndream.disk.avail.mb[D:]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PhysicalDisk</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Disk Avail Size MB (E: drive)</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ndream.disk.avail.mb[E:]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>1</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PhysicalDisk</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Disk Avail Size MB (F: drive)</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ndream.disk.avail.mb[F:]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>1</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PhysicalDisk</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Disk Usage(C: drive)</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ndream.disk.usage[C:]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PhysicalDisk</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Disk Usage(D: drive)</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ndream.disk.usage[D:]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PhysicalDisk</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Disk Usage(E: drive)</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ndream.disk.usage[E:]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>1</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PhysicalDisk</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Disk Usage(F: drive)</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ndream.disk.usage[F:]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>1</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PhysicalDisk</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Memory Usage (window, percent)</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ndream.mem.usage</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
                 <item>
                     <name>Committed Bytes In Use %</name>
                     <type>0</type>
@@ -2077,6 +2611,1009 @@
                     <applications>
                         <application>
                             <name>Memory</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\% Registry Quota In Use</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\% Registry Quota In Use&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\Alignment Fixups/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\Alignment Fixups/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\Context Switches/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\Context Switches/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\Exception Dispatches/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\Exception Dispatches/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\File Control Bytes/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\File Control Bytes/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\File Control Operations/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\File Control Operations/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\File Data Operations/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\File Data Operations/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\File Read Bytes/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\File Read Bytes/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\File Read Operations/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\File Read Operations/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\File Write Bytes/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\File Write Bytes/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\File Write Operations/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\File Write Operations/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\Floating Emulations/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\Floating Emulations/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\Processes</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\Processes&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\Processor Queue Length</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\Processor Queue Length&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\System Calls/sec</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\System Calls/sec&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\System Up Time</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\System Up Time&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>System\Threads</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>perf_counter[&quot;\System\Threads&quot;]</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>System</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -7287,6 +8824,9 @@
                     <name>MSSQL : Databases</name>
                 </application>
                 <application>
+                    <name>MSSQL : General Statistics</name>
+                </application>
+                <application>
                     <name>MSSQL : Locks</name>
                 </application>
                 <application>
@@ -7351,7 +8891,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7411,7 +8951,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7471,7 +9011,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7531,7 +9071,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7591,7 +9131,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7651,7 +9191,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7711,7 +9251,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7771,7 +9311,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7831,7 +9371,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7891,7 +9431,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -7951,7 +9491,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8011,7 +9551,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8071,7 +9611,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8131,7 +9671,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8191,7 +9731,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8251,7 +9791,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8311,7 +9851,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8431,7 +9971,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8491,7 +10031,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8551,7 +10091,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8611,7 +10151,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8671,7 +10211,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8731,7 +10271,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8791,7 +10331,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8851,7 +10391,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8911,7 +10451,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8971,7 +10511,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -9331,7 +10871,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -9391,7 +10931,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -9451,7 +10991,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -9511,7 +11051,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -9631,7 +11171,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -9691,7 +11231,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -9931,7 +11471,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -9991,7 +11531,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -10111,7 +11651,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -10171,7 +11711,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -10231,7 +11771,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -10291,7 +11831,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -10351,7 +11891,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -10411,7 +11951,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -10711,7 +12251,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -10771,7 +12311,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -10891,7 +12431,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11131,7 +12671,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11191,7 +12731,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11251,7 +12791,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11311,7 +12851,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11371,7 +12911,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11431,7 +12971,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11491,7 +13031,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11551,7 +13091,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11611,7 +13151,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11671,7 +13211,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11731,7 +13271,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11791,7 +13331,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11851,7 +13391,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11911,7 +13451,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -11971,7 +13511,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12031,7 +13571,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12091,7 +13631,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12151,7 +13691,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12211,7 +13751,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12271,7 +13811,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12331,7 +13871,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12391,7 +13931,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12451,7 +13991,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12511,7 +14051,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12571,7 +14111,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12631,7 +14171,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12691,7 +14231,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12751,7 +14291,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12811,7 +14351,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12871,7 +14411,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12931,7 +14471,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -12991,7 +14531,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13051,7 +14591,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13111,7 +14651,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13171,7 +14711,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13231,7 +14771,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13291,7 +14831,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13471,7 +15011,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13531,7 +15071,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13591,7 +15131,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13891,7 +15431,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -13951,7 +15491,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14011,7 +15551,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14071,7 +15611,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14123,6 +15663,66 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
+                            <name>General Statistics\User Connections({#INST})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\MSSQL${#INST}:General Statistics\User Connections&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>MSSQL : General Statistics</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
                             <name>Average Wait Time (ms)({#INST} : {#DBLOCK})</name>
                             <type>0</type>
                             <snmp_community/>
@@ -14131,7 +15731,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14251,7 +15851,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14311,7 +15911,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14371,7 +15971,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14431,7 +16031,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14491,7 +16091,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14551,7 +16151,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14611,7 +16211,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14671,7 +16271,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14731,7 +16331,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14791,7 +16391,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14851,7 +16451,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14911,7 +16511,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -14971,7 +16571,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15031,7 +16631,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15091,7 +16691,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15151,7 +16751,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15211,7 +16811,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15271,7 +16871,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15331,7 +16931,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15391,7 +16991,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15571,7 +17171,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15631,7 +17231,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17191,7 +18791,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17251,7 +18851,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17671,7 +19271,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17731,7 +19331,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17791,7 +19391,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17851,7 +19451,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17911,7 +19511,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18091,7 +19691,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18151,7 +19751,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18211,7 +19811,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18271,7 +19871,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18451,7 +20051,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18511,7 +20111,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18571,7 +20171,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18631,7 +20231,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18691,7 +20291,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18751,7 +20351,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18811,7 +20411,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18871,7 +20471,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18895,726 +20495,6 @@
                             <applications>
                                 <application>
                                     <name>MSSQL : Transactions</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Lock waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Lock waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Log buffer waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Log buffer waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Log write waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Log write waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Memory grant queue waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Memory grant queue waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Network IO waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Network IO waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Non-Page latch waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Non-Page latch waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Page IO latch waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Page IO latch waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Page latch waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Page latch waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Thread-safe memory objects waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Thread-safe memory objects waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Transaction ownership waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Transaction ownership waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Wait for the worker({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Wait for the worker&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Wait Statistics(Average wait time (ms))\Workspace synchronization waits({#INST})</name>
-                            <type>0</type>
-                            <snmp_community/>
-                            <snmp_oid/>
-                            <key>perf_counter[&quot;\MSSQL${#INST}:Wait Statistics(Average wait time (ms))\Workspace synchronization waits&quot;]</key>
-                            <delay>30s</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>MSSQL : Wait Statistics</name>
                                 </application>
                             </applications>
                             <valuemap/>
