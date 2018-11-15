@@ -6,9 +6,8 @@ $caption,[string]$diskFree,[string]$diskSize=$diskInfo -split '\s+'
 $diskSize = $diskSize.Substring(0,$diskSize.length-1)
 [double] $diskUsed = [double]$diskSize - [double]$diskFree
 
-#write-host "diskused : $diskused zzz`ndisksize : ($diskSize)`n"
 $diskUsage = [math]::Round([double] $diskUsed / [double] $diskSize * 100,2)
-write-host $diskUsage
+write-host -NoNewline $diskUsage
 
 # write-host "{"
 # write-host " `"data`":[`n"

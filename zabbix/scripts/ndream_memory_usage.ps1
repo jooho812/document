@@ -3,7 +3,7 @@ $memorySize = Get-WMIObject Win32_PhysicalMemory | Measure -Property capacity -S
 $memoryAvail = (Get-Counter '\Memory\Available MBytes').CounterSamples.CookedValue
 
 $memoryUsage = [math]::Round([double] $memoryAvail / [double] $memorySize * 100, 2)
-write-host $memoryUsage
+write-host -NoNewline $memoryUsage
 
 # write-host "{"
 # write-host " `"data`":[`n"
