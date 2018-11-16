@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2018-11-13T07:43:01Z</date>
+    <date>2018-11-16T07:27:46Z</date>
     <groups>
         <group>
             <name>mssql</name>
@@ -8773,7 +8773,24 @@
                             <master_item/>
                         </item_prototype>
                     </item_prototypes>
-                    <trigger_prototypes/>
+                    <trigger_prototypes>
+                        <trigger_prototype>
+                            <expression>{NDream Basic Template:perf_counter[&quot;\Processor({#PROCESSOR})\% Processor Time&quot;].last()}&gt;=70</expression>
+                            <recovery_mode>1</recovery_mode>
+                            <recovery_expression>{NDream Basic Template:perf_counter[&quot;\Processor({#PROCESSOR})\% Processor Time&quot;].last()}&lt;70</recovery_expression>
+                            <name>[Basic] Processor({#PROCESSOR})\% Processor Time over 70%</name>
+                            <correlation_mode>0</correlation_mode>
+                            <correlation_tag/>
+                            <url/>
+                            <status>1</status>
+                            <priority>0</priority>
+                            <description/>
+                            <type>0</type>
+                            <manual_close>0</manual_close>
+                            <dependencies/>
+                            <tags/>
+                        </trigger_prototype>
+                    </trigger_prototypes>
                     <graph_prototypes/>
                     <host_prototypes/>
                     <jmx_endpoint/>
@@ -8825,6 +8842,9 @@
                 </application>
                 <application>
                     <name>MSSQL : General Statistics</name>
+                </application>
+                <application>
+                    <name>MSSQL : Latches</name>
                 </application>
                 <application>
                     <name>MSSQL : Locks</name>
@@ -12543,7 +12563,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Page reads/sec({#INSt})</name>
+                            <name>Page reads/sec({#INST})</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -12851,7 +12871,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>1</status>
+                            <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -15723,6 +15743,66 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
+                            <name>Latches\Latch Waits/sec({#INST})</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>perf_counter[&quot;\MSSQL${#INST}:Latches\Latch Waits/sec&quot;]</key>
+                            <delay>30s</delay>
+                            <history>90d</history>
+                            <trends>365d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>MSSQL : Latches</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
                             <name>Average Wait Time (ms)({#INST} : {#DBLOCK})</name>
                             <type>0</type>
                             <snmp_community/>
@@ -16091,7 +16171,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>1</status>
+                            <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17411,7 +17491,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17471,7 +17551,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17531,7 +17611,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17651,7 +17731,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17711,7 +17791,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17771,7 +17851,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17891,7 +17971,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -17951,7 +18031,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18011,7 +18091,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18131,7 +18211,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18191,7 +18271,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18251,7 +18331,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18371,7 +18451,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18431,7 +18511,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18491,7 +18571,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18551,7 +18631,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18611,7 +18691,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18671,7 +18751,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -19811,7 +19891,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>1</status>
+                            <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -20643,7 +20723,7 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Wait Statistics(Cumulative wait time (ms) per second)\Log write waits</name>
+                            <name>Wait Statistics(Cumulative wait time (ms) per second)\Log write waits({#INST})</name>
                             <type>0</type>
                             <snmp_community/>
                             <snmp_oid/>
@@ -20831,7 +20911,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -20891,7 +20971,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -20951,7 +21031,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -22683,7 +22763,40 @@
                             <master_item/>
                         </item_prototype>
                     </item_prototypes>
-                    <trigger_prototypes/>
+                    <trigger_prototypes>
+                        <trigger_prototype>
+                            <expression>{NDream MSSQL Template:perf_counter[&quot;\MSSQL${#INST}:Buffer Manager\Lazy writes/sec&quot;].last()}&gt;=5</expression>
+                            <recovery_mode>1</recovery_mode>
+                            <recovery_expression>{NDream MSSQL Template:perf_counter[&quot;\MSSQL${#INST}:Buffer Manager\Lazy writes/sec&quot;].last()}&lt;5</recovery_expression>
+                            <name>[MSSQL] Buffer Manager\Lazy writes/sec over 5 : ({#INST})</name>
+                            <correlation_mode>0</correlation_mode>
+                            <correlation_tag/>
+                            <url/>
+                            <status>0</status>
+                            <priority>4</priority>
+                            <description/>
+                            <type>0</type>
+                            <manual_close>0</manual_close>
+                            <dependencies/>
+                            <tags/>
+                        </trigger_prototype>
+                        <trigger_prototype>
+                            <expression>{NDream MSSQL Template:perf_counter[&quot;\MSSQL${#INST}:Locks({#DBLOCK})\Number of Deadlocks/sec&quot;].last()}&gt;0</expression>
+                            <recovery_mode>1</recovery_mode>
+                            <recovery_expression>{NDream MSSQL Template:perf_counter[&quot;\MSSQL${#INST}:Locks({#DBLOCK})\Number of Deadlocks/sec&quot;].last()}=0</recovery_expression>
+                            <name>[MSSQL] Number of Deadlocks/sec Over 0 : ({#INST} : {#DBLOCK})</name>
+                            <correlation_mode>0</correlation_mode>
+                            <correlation_tag/>
+                            <url/>
+                            <status>0</status>
+                            <priority>4</priority>
+                            <description/>
+                            <type>0</type>
+                            <manual_close>0</manual_close>
+                            <dependencies/>
+                            <tags/>
+                        </trigger_prototype>
+                    </trigger_prototypes>
                     <graph_prototypes/>
                     <host_prototypes/>
                     <jmx_endpoint/>
@@ -22712,4 +22825,70 @@
             <screens/>
         </template>
     </templates>
+    <triggers>
+        <trigger>
+            <expression>{NDream Basic Template:ndream.disk.usage[C:].last()}&gt;=90</expression>
+            <recovery_mode>1</recovery_mode>
+            <recovery_expression>{NDream Basic Template:ndream.disk.usage[C:].last()}&lt;90</recovery_expression>
+            <name>[Basic] disk.usage[C:] over 90%</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{NDream Basic Template:ndream.disk.usage[D:].last()}&gt;=90</expression>
+            <recovery_mode>1</recovery_mode>
+            <recovery_expression>{NDream Basic Template:ndream.disk.usage[D:].last()}&lt;90</recovery_expression>
+            <name>[Basic] disk.usage[D:] over 90%</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{NDream Basic Template:ndream.disk.usage[E:].last()}&gt;=90</expression>
+            <recovery_mode>1</recovery_mode>
+            <recovery_expression>{NDream Basic Template:ndream.disk.usage[E:].last()}&lt;90</recovery_expression>
+            <name>[Basic] disk.usage[E:] over 90%</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>1</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{NDream Basic Template:ndream.disk.usage[F:].last()}&gt;=90</expression>
+            <recovery_mode>1</recovery_mode>
+            <recovery_expression>{NDream Basic Template:ndream.disk.usage[F:].last()}&lt;90</recovery_expression>
+            <name>[Basic] disk.usage[F:] over 90%</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>1</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+    </triggers>
 </zabbix_export>
