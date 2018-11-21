@@ -45,6 +45,8 @@ goto :EOF
 SET textFile=%1
 SET search=%2
 SET replace=%3
+:: remove double quotes
+SET replace=%replace:"=%
 
 :: replace string in %textFile%
 for %%j in ("%dir%\%textFile%") do (
