@@ -1,6 +1,6 @@
 ﻿
 # Get Disk Information
-$diskInfo=wmic logicaldisk get size,freespace,caption | findstr $args[0]
+$diskInfo=wmic logicaldisk get size","freespace","caption | findstr $args[0]
 #$diskInfo=$diskInfo -replace "`n|`r|`t",""
 $caption,[string]$diskFree,[string]$diskSize=$diskInfo -split '\s+'
 $diskSize = $diskSize.Substring(0,$diskSize.length-1)
