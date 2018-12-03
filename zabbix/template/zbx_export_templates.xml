@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2018-12-03T00:22:58Z</date>
+    <date>2018-12-03T00:39:47Z</date>
     <groups>
         <group>
             <name>Zabbix agents</name>
@@ -8777,7 +8777,7 @@
                         <trigger_prototype>
                             <expression>{NDream Basic Template:perf_counter[&quot;\Processor({#PROCESSOR})\% Processor Time&quot;].last()}&gt;=70</expression>
                             <recovery_mode>1</recovery_mode>
-                            <recovery_expression>{NDream Basic Template:perf_counter[&quot;\Processor({#PROCESSOR})\% Processor Time&quot;].last()}&lt;70</recovery_expression>
+                            <recovery_expression>{NDream Basic Template:perf_counter[&quot;\Processor({#PROCESSOR})\% Processor Time&quot;].last()}&lt;50</recovery_expression>
                             <name>[Basic] Processor({#PROCESSOR})\% Processor Time over 70%</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
@@ -22767,7 +22767,7 @@
                         <trigger_prototype>
                             <expression>{NDream MSSQL Template:perf_counter[&quot;\MSSQL${#INST}:Buffer Manager\Lazy writes/sec&quot;].last()}&gt;=5</expression>
                             <recovery_mode>1</recovery_mode>
-                            <recovery_expression>{NDream MSSQL Template:perf_counter[&quot;\MSSQL${#INST}:Buffer Manager\Lazy writes/sec&quot;].last()}&lt;5</recovery_expression>
+                            <recovery_expression>{NDream MSSQL Template:perf_counter[&quot;\MSSQL${#INST}:Buffer Manager\Lazy writes/sec&quot;].last()}=0</recovery_expression>
                             <name>[MSSQL] Buffer Manager\Lazy writes/sec over 5 : ({#INST})</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
