@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2018-11-16T07:27:46Z</date>
+    <date>2018-12-03T00:22:58Z</date>
     <groups>
         <group>
-            <name>mssql</name>
+            <name>Zabbix agents</name>
         </group>
     </groups>
     <templates>
@@ -14,7 +14,7 @@
             <description/>
             <groups>
                 <group>
-                    <name>mssql</name>
+                    <name>Zabbix agents</name>
                 </group>
             </groups>
             <applications>
@@ -168,7 +168,7 @@
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
-                    <status>1</status>
+                    <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
                     <units/>
@@ -227,7 +227,7 @@
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
-                    <status>1</status>
+                    <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
                     <units/>
@@ -404,7 +404,7 @@
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
-                    <status>1</status>
+                    <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
                     <units/>
@@ -463,7 +463,7 @@
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
-                    <status>1</status>
+                    <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
                     <units/>
@@ -1466,7 +1466,7 @@
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
-                    <status>1</status>
+                    <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
                     <units/>
@@ -1525,7 +1525,7 @@
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
-                    <status>1</status>
+                    <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
                     <units/>
@@ -1584,7 +1584,7 @@
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
-                    <status>1</status>
+                    <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
                     <units/>
@@ -5421,7 +5421,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -5481,7 +5481,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -5601,7 +5601,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -5661,7 +5661,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -5781,7 +5781,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -5841,7 +5841,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -5901,7 +5901,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -5961,7 +5961,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -6021,7 +6021,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -6141,7 +6141,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -6201,7 +6201,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -6261,7 +6261,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -6321,7 +6321,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -6381,7 +6381,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -6441,7 +6441,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -8782,7 +8782,7 @@
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
-                            <status>1</status>
+                            <status>0</status>
                             <priority>0</priority>
                             <description/>
                             <type>0</type>
@@ -8824,7 +8824,7 @@
             <description/>
             <groups>
                 <group>
-                    <name>mssql</name>
+                    <name>Zabbix agents</name>
                 </group>
             </groups>
             <applications>
@@ -17431,7 +17431,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -18631,7 +18631,7 @@
                             <delay>30s</delay>
                             <history>90d</history>
                             <trends>365d</trends>
-                            <status>1</status>
+                            <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -22866,7 +22866,7 @@
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
-            <status>1</status>
+            <status>0</status>
             <priority>4</priority>
             <description/>
             <type>0</type>
@@ -22882,7 +22882,7 @@
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
-            <status>1</status>
+            <status>0</status>
             <priority>4</priority>
             <description/>
             <type>0</type>
