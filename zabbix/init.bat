@@ -19,6 +19,7 @@ SET hostname=LC_125
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 copy %dir%\conf\example\userparameter_ndream.example.conf %dir%\conf\userparameter_ndream.conf
 copy %dir%\conf\example\zabbix_agentd.win.example.conf    %dir%\conf\zabbix_agentd.win.conf
+copy %dir%\conf\example\ndream_info.example.conf          %dir%\conf\ndream_info.conf
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: replace string
@@ -37,12 +38,6 @@ call :REPLACE_STRING conf\userparameter_ndream.conf #DIRECTORY_PATH %dir%
 SET fname=%dir%\conf\ndream_db.conf
 SET script=%dir%\scripts\ndream_mssql_make_configfile.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File "%script%" > %fname%
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: make ndream_info file
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-SET script=%dir%\scripts\make_ndream_info.ps1
-powershell -NoProfile -ExecutionPolicy Bypass -File "%script%"
 
 goto :EOF
 
