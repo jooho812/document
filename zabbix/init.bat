@@ -45,8 +45,9 @@ SET script=%dir%\scripts\ndream_config_info.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File "%script%"
 
 :: make ndream_disk file
+SET fname=%dir%\conf\ndream_disk.conf
 SET script=%dir%\scripts\ndream_config_disk.ps1
-powershell -NoProfile -ExecutionPolicy Bypass -File "%script%"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%script%" > %fname%
 
 goto :EOF
 
