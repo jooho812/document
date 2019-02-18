@@ -1,6 +1,6 @@
 import array
 
-line = [line.rstrip('\n') for line in open('table_list.txt','r')]
+tablist = [tablist.rstrip('\n').lower() for tablist in open('table_list.txt','r')]
 
 with open('sql_scripts.txt', 'r') as f:
   text = f.read()    
@@ -8,7 +8,7 @@ with open('sql_scripts.txt', 'r') as f:
 
   dic = {}
   for w in words:
-    if w in line:
+    if w.lower() in tablist:
       if w in dic:
         dic[w] += 1
       else:
